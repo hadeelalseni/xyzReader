@@ -36,4 +36,9 @@
         <item name="android:textColor">#8f246b</item>
     </style>
 
+    <style name="whiteText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
 </resources>

@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="112dp"
         android:background="#d65cad"
-        android:elevation="8dp">
+        android:elevation="4dp">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -61,6 +61,8 @@
         app:layout_anchor="@+id/swipe_refresh_layout"
         app:layout_anchorGravity="bottom|right"
         android:layout_margin="16dp"
-        app:srcCompat="@android:drawable/btn_star" />
+        app:srcCompat="@android:drawable/btn_star"
+        android:elevation="6dp"
+        android:focusable="true" />
 
 </android.support.design.widget.CoordinatorLayout>
