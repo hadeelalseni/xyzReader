@@ -65,7 +65,7 @@
                         android:layout_height="match_parent"
                         android:lineSpacingMultiplier="0.9"
                         android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
-                        android:textColor="#00FFFFFF"
+                        android:textColor="#FFFFFF"
                         android:textSize="@dimen/detail_title_text_size"
                         android:textStyle="bold" />
 
