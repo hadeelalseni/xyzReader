@@ -20,6 +20,7 @@
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:scaleType="centerCrop"
             android:background="@color/photo_placeholder" />
 
         <TextView
@@ -37,7 +38,8 @@
 
         <TextView
             android:id="@+id/article_subtitle"
-            style="@style/meduimPinkText"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="#363636"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
